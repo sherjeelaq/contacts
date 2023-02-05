@@ -15,7 +15,7 @@ A full-stack contacts application built using Next.js, React, TypeScript, Node.j
 #### Before running the project
 
 - Copy `.env.example` file located in `backend/` and rename it to ``.env``.
-- In the `.env` file, set the PORT and MONGO_DB_URL. For local environment, its usually,
+- In the `.env` file, set the ``PORT`` and ``MONGO_DB_URL``. For local environment, its usually,
 
 ```bash
 PORT=4000
@@ -41,7 +41,7 @@ yarn dev
 
 #### Before running the project
 
-- Open `env.ts` located in `frontend/src/lib/` and change the API_URL to the backend url (If running locally then its usually http://localhost:4000/api).
+- Open `env.ts` located in `frontend/src/lib/` and change the ``API_URL`` to the backend url (If running locally then its usually http://localhost:4000/api).
 
 ```typescript
 //example env.ts file for local environment
