@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-display: swap;
+  font-family: 'Glysa';
+  src: local('Glysa'),
+    url(../../public/assets/fonts/Glysa.otf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'LexendDeca';
+  src: local('LexendDeca'),
+    url(../../public/assets/fonts/LexendDeca-VariableFont_wght.ttf)
+      format('truetype');
+}
+
+body {
+  background-color: #141414;
+}
+
+h1,
+h2 {
+  font-family: 'Glysa', sans-serif;
+}
+
+h3,
+p,
+input {
+  font-family: 'LexendDeca', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+h2 {
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+h3 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
+
+p {
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1%;
+}
+
+.bg-special-gradient {
+  background: linear-gradient(
+      180deg,
+      rgba(40, 40, 40, 0.7) 0%,
+      #282828 100%
+    ),
+    #141414;
+}
+
+.bg-special-gradient:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.04),
+      rgba(255, 255, 255, 0.04)
+    ),
+    linear-gradient(180deg, rgba(40, 40, 40, 0.7) 0%, #282828 100%),
+    #141414;
+}
+
+.bg-special-gradient:active {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.04),
+      rgba(255, 255, 255, 0.04)
+    ),
+    linear-gradient(180deg, rgba(40, 40, 40, 0.7) 0%, #282828 100%),
+    #141414;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
