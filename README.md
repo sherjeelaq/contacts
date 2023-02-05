@@ -14,7 +14,7 @@ A full-stack contacts application built using Next.js, React, TypeScript, Node.j
 
 #### Before running the project
 
-- Copy `.env.example` file located in `backend/` and rename it to ``.env`.
+- Copy `.env.example` file located in `backend/` and rename it to ``.env``.
 - In the `.env` file, set the PORT and MONGO_DB_URL. For local environment, its usually,
 
 ```bash
